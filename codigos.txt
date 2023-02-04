@@ -1,0 +1,311 @@
+<h1> texto aqui </h1>
+
+toda vez que queremos fazer um titulo maior para a pagina, devemos colocar o <h1> e fechar com </h1>
+
+
+==================================================
+<h2> texto aqui </h2>
+
+<h2> é um sbtitulo, vai esta com a letra menor do que o <h1>
+
+
+==================================================
+as etiquetas ficam mais pequena quando os numero sobe exemplo: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+vai até o <h6>
+
+
+==================================================
+<br> é um elemento de pular linha, ele não precisa do </br> por que ele é um elemento auto-fechado
+
+
+==================================================
+<hr> é para colocar uma linha horizontal, tambem é um elemento auto-fechado, 
+os elementos pode receber atributos é só pesquisar no site https://devdocs.io/ e ir em html
+e vai em elemento para ver os atributos.
+Os atributos são colocados na frente do elemento
+Ex:
+
+<hr size="3"> colocamos o elemento e o atributo de tamanho 3
+
+<hr size="3" noshade> colocamos o elemento o atributo "size" e o atributo "noshade" noshade é um atributo para não deixar sombreamentos
+
+
+==================================================
+<center> é para centralizar o texto, <center> é um elemento não auto-fechado então precisa do fechamento </center>
+
+
+==================================================
+<!-- --> isso é para comentar, <!-- inicia o comentario e --> fecha o comentario
+
+
+==================================================
+UTF-8 serve para codificar todos as linguas e caracteres que existe.
+UTF-8 tem compatibilidade com as maiorias das linguas, existes outros como Unicode
+Mas exste outros codigo de codificação, para saber mais pode ler o livro de Joel spolsky
+
+
+==================================================
+no html no <head> existe varios atributos que você pode colocar, incluida a descrição do site que ira aparecer na descrição em baixo do link quando o usuario busca pelo seu site
+para saber mais sobre isso pode pesquisa o site ==> https://www.w3schools.com/tags/tag_meta.asp
+
+
+==================================================
+<p> é para adicionar um paragrafo ou um texto, </p> fecha, ele não é auto=fechado
+para coloca em italico o seu <p> basta vc colocar dentro o <em>
+Exemplo: <p> <em>texto aqui</em> </p>
+<strong> é para colocar em negrito tambem precisa fechar </strong>
+
+Para colocar itálico em um elemento <p> no HTML, você pode usar a tag <em> dentro do elemento <p>. Por exemplo:
+<p>Este é um <em>texto em itálico</em> dentro de um parágrafo.</p>
+
+Outra maneira é usar o atributo "style" e definir a propriedade "font-style" como "italic"
+<p style="font-style:italic">Este é um texto em itálico</p>
+
+Você também pode usar a tag <i> para fazer o texto itálico
+<p>Este é um <i>texto em itálico</i> dentro de um parágrafo.</p>
+
+
+==================================================
+Para criar uma lista com marcadores (bullets) no HTML, você pode usar a tag <ul> (para lista não ordenada) e <li> (para cada item na lista).
+
+Exemplo:
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+Isso irá produzir uma lista com marcadores (bullets) como:
+Item 1
+Item 2
+Item 3
+
+Se você quiser uma lista ordenada, você pode usar a tag <ol> em vez de <ul> e os itens serão numerados automaticamente.
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+Isso irá produzir uma lista ordenada como:
+Item 1
+Item 2
+Item 3
+Você também pode personalizar os marcadores (bullets) usando CSS.
+
+
+==================================================
+Para adicionar uma imagem em uma página HTML, você pode usar a tag <img> e especificar o caminho da imagem usando o atributo "src".
+Exemplo:
+<img src="caminho/da/imagem.jpg" alt="descrição da imagem">
+
+Em vez de usar o caminho absoluto da imagem, você também pode usar o caminho relativo, caso a imagem esteja na mesma pasta do arquivo HTML:
+<img src="imagem.jpg" alt="descrição da imagem">
+
+Além do atributo "src", é recomendável incluir o atributo "alt" que descreve o que a imagem representa.
+Exemplo:
+<img src="caminho/da/imagem.jpg" alt="Uma bela paisagem">
+Além disso, você também pode usar outros atributos como "width" e "height" para especificar as dimensões da imagem e "style" para aplicar estilos CSS à imagem.
+
+você pode usar uma imagem da web (também conhecida como imagem hospedada externamente) colocando o endereço URL da imagem no atributo "src" da tag <img>.
+Exemplo:
+<img src="https://www.example.com/images/example.jpg" alt="descrição da imagem">
+Ou seja, você está apontando para o caminho da imagem na web no atributo "src" como fonte da imagem.
+
+Tenha em mente que, se você estiver usando uma imagem de outro site, é importante garantir que você tenha permissão para usá-la e que ela não esteja violando qualquer direito autoral.
+
+Além disso, se você estiver usando uma imagem de outro site, é recomendável fazer o download e hospedar essa imagem em seu próprio servidor para garantir que ela sempre esteja disponível e para evitar problemas de carregamento de imagem devido a problemas no site externo.
+
+A tag <img> no HTML é usada para inserir imagens em uma página web. O atributo "alt" é usado para fornecer uma descrição alternativa da imagem. Ele é importante por várias razões:
+
+Acessibilidade: as pessoas com deficiência visual podem usar leitores de tela para ler a descrição da imagem em vez de ver a imagem.
+
+SEO: os motores de busca usam a descrição da imagem como um fator de ranqueamento, então uma descrição precisa e relevante pode ajudar a melhorar o SEO da sua página.
+
+Caso a imagem não carregue: se a imagem não puder ser carregada por algum motivo, a descrição alternativa será exibida no lugar, permitindo que o usuário saiba do que se tratava a imagem.
+
+Portanto, sempre é recomendado colocar descrições alternativas nas imagens, mesmo se você acha que a imagem é autoexplicativa, pois isso melhora a acessibilidade e o SEO do seu site.
+
+
+==================================================
+Oque representa HTML (HyperText Markup Language) a parte do HyperText
+o Hypertext é basicamente apenas um monte de documentos (paginas) de texto que podem ser ligados juntos usando hiperligações. Por isso, quando se clica em um deles leva a um outro documento (pagina).
+
+Para criar uma ligação para outro documento no HTML, você pode usar a tag <a> (anchor) e especificar o endereço do documento usando o atributo "href".
+Exemplo:
+<a href="http://www.example.com">Nome para o example.com</a>
+O texto entre as tags <a> será o texto clicável na página que o usuário pode clicar para ser redirecionado para o endereço especificado no atributo "href".
+
+Você também pode usar links internos dentro do mesmo site, usando caminhos relativos, nesse caso você não precisa colocar o http ou https no inicio do link.
+<a href="pagina2.html">Link para a página 2</a>
+
+Se você quiser abrir o link em uma nova guia do navegador, você pode adicionar o atributo "target" com o valor "_blank".
+<a href="http://www.example.com" target="_blank">Link para o example.com</a>
+
+Vale lembrar que existem outros atributos que podem ser usados para links, como "title" para fornecer dicas de ferramentas e "rel" para especificar a relação entre a página atual e a página de destino.
+
+
+==================================================
+A tag <table> é usada para criar tabelas em HTML. As tabelas são úteis para exibir dados que possuem relações entre si, como informações financeiras, estatísticas, horários e muito mais.
+
+Para usar a tag <table> , você precisa usar as tags <tr> (table row) para criar linhas, <th> (table header) para criar cabeçalhos e coluna, e <td> (table data) para criar células da coluna de dados.
+
+Exemplo:
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Cidade</th>
+  </tr>
+  <tr>
+    <td>João</td>
+    <td>25</td>
+    <td>São Paulo</td>
+  </tr>
+  <tr>
+    <td>Maria</td>
+    <td>32</td>
+    <td>Rio de Janeiro</td>
+  </tr>
+</table>
+
+Você também pode usar atributos como "border" para definir o tamanho da borda da tabela, "width" e "height" para definir as dimensões da tabela e "cellpadding" e "cellspacing" para especificar o espaçamento das células.
+
+Além disso, você pode usar CSS para estilizar uma tabela, incluindo um cor de fundo, uma fonte, o tamanho da fonte e muito mais.
+
+Vale lembrar que o uso excessivo de tabelas para o layout da página móvel não é recomendado, pois não é a maneira mais acessível de exibir conteúdo e pode ser prejudicado na exibição em dispositivos. O layout da página deve ser feito principalmente com CSS.
+
+
+
+
+
+para que serve o <thead>?
+Uma tag <thead> representa o cabeçalho de uma tabela em HTML. É usado para conter as células de cabeçalho de coluna que descrevem o conteúdo das colunas da tabela.
+
+O uso do <thead> permite que o navegador e outros dispositivos compreendam a estrutura da tabela e suportem suporte a recursos como navegação por tabela e impressão. Além disso, ele permite que você estilize o cabeçalho da tabela de forma diferente do restante da tabela.
+
+Exemplo:
+
+Copiar código
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th>Cidade</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>João</td>
+    <td>25</td>
+    <td>São Paulo</td>
+  </tr>
+  <tr>
+    <td>Maria</td>
+    <td>32</td>
+    <td>Rio de Janeiro</td>
+  </tr>
+</table>
+Vale lembrar que o uso de <thead> é opcional, mas altamente recomendado para garantir uma estrutura acessível e bem estruturada da tabela.
+
+
+
+
+
+para que serve o <tbody>?
+Uma tag <tbody> representa o corpo da tabela em HTML. É usado para conter as linhas de dados da tabela e fornecer uma estrutura para o conteúdo da tabela.
+
+O uso do <tbody> permite que o navegador e outros dispositivos compreendam a estrutura da tabela e suportem suporte a recursos como navegação por tabela e impressão. Além disso, ele permite que você estilize o corpo da tabela de forma diferente do cabeçalho da tabela.
+
+Exemplo:
+
+
+Copiar código
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th>Cidade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>João</td>
+      <td>25</td>
+      <td>São Paulo</td>
+    </tr>
+    <tr>
+      <td>Maria</td>
+      <td>32</td>
+      <td>Rio de Janeiro</td>
+    </tr>
+  </tbody>
+</table>
+Vale lembrar que o uso de <tbody> é opcional, mas altamente recomendado para garantir uma estrutura acessível e bem estruturada da tabela.
+
+
+==================================================
+Para criar um formulario para o usuario responder, e colocar o seus dados de contato la
+
+tem o elemento "form"
+vamos usar ele.
+
+O elemento "form" no HTML é usado para criar um formulário na página web. Ele permite que os usuários insiram dados, que podem ser enviados para um servidor para serem processados. Os elementos dentro do formulário incluem campos de texto, caixas de seleção, botões de rádio, entre outros. Este elemento é fundamental para a interação com o usuário e a coleta de informações importantes para um aplicativo web.
+
+Exemplo:
+
+    <form action="">
+        <label>You name:</label>
+        <input type="text">
+    </form>
+
+nesse codigo abrimos o 'form' abrimos o 'label' dentro do 'label' colocamos a pergunta, e, embaixo colocamos o 'input' que é a caixa de texto para o usuario digitar.
+
+Exemplo: adicionando button
+    <form action="">
+        <label>You name:</label>
+        <input type="text">
+        <input type="submit" value="Save">
+    </form>
+
+nesse codigo acima adicionamos o botão
+
+
+para saber mais sobre 'form' e 'input' no html acesse os links abaixos
+
+form = https://devdocs.io/html/element/form
+input = https://devdocs.io/html/element/input
+
+Observação no 'input'.
+Toda vez que vamos colcoar o 'input' precisamos colocar o 'type' (tipo) do input, exemplo: se queremos pegar a senha do usuario então devemos colocar, <input type="password">
+assim guardaremos o dados da senha do usuario, mas tem varios outros atributos que vc pode ver no link acima no 'input'
+
+
+exemplo, criando um procurador de arquivo <input type="file">, mostrada a data <input type="date">, e o botão de radio <input type="radio"> e o volume <input type="range">
+    <form action="">
+        <label>You name:</label>
+        <input type="text">
+        <input type="submit" value="Save">
+        <br>
+        <label>Date</label>
+        <input type="date">
+        <br>
+        <label>file</label>
+        <input type="file">
+        <br>
+        <label>Radio</label>
+        <input type="radio"><br>
+        <input type="range">
+    </form>
+
+
+Pra que serve o <Label>?
+Uma tag <label>serve no HTML para associar um texto de descrição a um elemento de formulário, como uma caixa de seleção ou um campo de texto. Isso fornece uma melhor acessibilidade e usabilidade para o usuário final, pois o texto descritivo pode ser clicável e ajuda a identificar claramente o propósito do elemento de formulário.
+
+
+Para que serve o <textarea>?
+A tag <textarea> serve no HTML para criar uma área de texto multilinha que permite ao usuário inserir e editar várias linhas de texto. É comumente usado em formulários da web para coletar informações do usuário, como comentários ou descrições detalhadas. Além disso, pode ser personalizado com atributos HTML como "rows" e "cols" para definir o tamanho da área de texto e "wrap" para especificar como o texto é reformatado quando o usuário chega ao final da linha.
+
+toda vez que colocarmos um <input> ou <textarea> precisamos expecificar nos com outros parametros como id='', name='', value='' 
+==================================================
